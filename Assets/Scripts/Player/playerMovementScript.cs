@@ -10,6 +10,7 @@ public class playerMovementScript : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
     private SpriteRenderer spriteRenderer;
+    private Animator anim;
 
     public chemicalManager cm;
     public humanManager hm;
@@ -19,6 +20,7 @@ public class playerMovementScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -43,6 +45,16 @@ public class playerMovementScript : MonoBehaviour
         {
             spriteRenderer.flipX = true;
         }
+
+        if (moveInput != 0)
+        {
+            anim.SetBool("isRunning", true);
+        }
+
+        if (moveInput == 0)
+        {
+            anim.SetBool("isRunning", false);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -57,6 +69,9 @@ public class playerMovementScript : MonoBehaviour
         {
             Destroy(other.gameObject);
             hm.pointsCount++;
+            anim.SetBool("isEating", true);
+            new WaitForSeconds(.4f);
+            anim.SetBool("isEating", false);
         }
     }
 }
