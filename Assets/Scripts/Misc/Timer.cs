@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
 {
     private string[] sceneOrder;
 
-    private int currentSceneIndex = 0;
+    private int currentSceneIndex = 3;
 
     public GameObject objectToTeleport = null; //assign it from inspector or code
     public Vector3 destination = new Vector3(0, 0, 0); //assign it from inspector or code

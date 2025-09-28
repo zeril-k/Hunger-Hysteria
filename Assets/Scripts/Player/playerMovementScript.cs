@@ -14,6 +14,7 @@ public class playerMovementScript : MonoBehaviour
 
     public chemicalManager cm;
     public humanManager hm;
+    public noKillPlz nkp;
 
     public AudioSource audioSource;
     audioManager audioManager;
@@ -80,6 +81,7 @@ public class playerMovementScript : MonoBehaviour
             Destroy(other.gameObject);
             audioManager.PlaySFX(audioManager.crunch);
             audioManager.PlaySFX(audioManager.scream);
+            nkp.pointsTotal += 1250;
         }
     }
 }
