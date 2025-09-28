@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2777888367327661826}
   - component: {fileID: 3415909988850775693}
   - component: {fileID: 1665183670710793316}
+  - component: {fileID: 1394812935019903753}
   m_Layer: 0
   m_Name: Human
   m_TagString: Human
@@ -137,3 +138,30 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1394812935019903753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5980143170004153781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beed4a2a8f647904c83dde40eb59aba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::playerBite
+  myEvents:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

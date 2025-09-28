@@ -1,0 +1,392 @@
+fileFormatVersion: 2
+guid: eab1c08455102564a89114a6dbb1f877
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5160882468792293898
+    second: puddle_0
+  - first:
+      213: -4504313136273846663
+    second: puddle_1
+  - first:
+      213: 1383936162967933750
+    second: puddle_2
+  - first:
+      213: 2574490404313573443
+    second: puddle_3
+  - first:
+      213: 1379195920565351632
+    second: puddle_4
+  - first:
+      213: -6555892264901585405
+    second: puddle_5
+  - first:
+      213: -6058542370967897740
+    second: puddle_6
+  - first:
+      213: 6996000513613035273
+    second: puddle_7
+  - first:
+      213: -990766711793818082
+    second: puddle_8
+  - first:
+      213: -8059049775584887301
+    second: puddle_9
+  - first:
+      213: -6385359764644968069
+    second: puddle_10
+  - first:
+      213: 3911853374946708486
+    second: puddle_11
+  - first:
+      213: -7883798923287414713
+    second: puddle_12
+  - first:
+      213: 4657497493971024439
+    second: puddle_13
+  - first:
+      213: -863391149892793390
+    second: puddle_14
+  - first:
+      213: -2516397792312602362
+    second: puddle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: puddle_0
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 11669
+        width: 4600
+        height: 5803
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f52818fcbcd068b0800000000000000
+      internalID: -5160882468792293898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puddle_1
+      rect:
+        serializedVersion: 2
+        x: 6563
+        y: 11642
+        width: 4600
+        height: 5830
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e854341177d71c0800000000000000
+      internalID: -4504313136273846663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puddle_2
+      rect:
+        serializedVersion: 2
+        x: 12403
+        y: 11642
+        width: 4600
+        height: 5830
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63355899b9ab43310800000000000000
+      internalID: 1383936162967933750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puddle_6
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 5845
+        width: 4600
+        height: 5830
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4793ec920dbbbeba0800000000000000
+      internalID: -6058542370967897740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puddle_8
+      rect:
+        serializedVersion: 2
+        x: 6574
+        y: 5813
+        width: 4600
+        height: 5830
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e166f38cce61042f0800000000000000
+      internalID: -990766711793818082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puddle_9
+      rect:
+        serializedVersion: 2
+        x: 12391
+        y: 5835
+        width: 4600
+        height: 5830
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd32138de0882090800000000000000
+      internalID: -8059049775584887301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puddle_13
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 0
+        width: 4600
+        height: 5830
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a3a665b41c2a040800000000000000
+      internalID: 4657497493971024439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puddle_14
+      rect:
+        serializedVersion: 2
+        x: 6567
+        y: 22
+        width: 4600
+        height: 5830
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db8c68d25e9404f0800000000000000
+      internalID: -863391149892793390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puddle_15
+      rect:
+        serializedVersion: 2
+        x: 12391
+        y: 0
+        width: 4600
+        height: 5830
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60151a35a85f31dd0800000000000000
+      internalID: -2516397792312602362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a4a9e098d3372b744a446c36b78bb01e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      puddle_0: -5160882468792293898
+      puddle_1: -4504313136273846663
+      puddle_10: -6385359764644968069
+      puddle_11: 3911853374946708486
+      puddle_12: -7883798923287414713
+      puddle_13: 4657497493971024439
+      puddle_14: -863391149892793390
+      puddle_15: -2516397792312602362
+      puddle_2: 1383936162967933750
+      puddle_3: 2574490404313573443
+      puddle_4: 1379195920565351632
+      puddle_5: -6555892264901585405
+      puddle_6: -6058542370967897740
+      puddle_7: 6996000513613035273
+      puddle_8: -990766711793818082
+      puddle_9: -8059049775584887301
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

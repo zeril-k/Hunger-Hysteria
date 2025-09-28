@@ -69,9 +69,6 @@ public class playerMovementScript : MonoBehaviour
         {
             Destroy(other.gameObject);
             hm.pointsCount++;
-            anim.SetBool("isEating", true);
-            new WaitForSeconds(.4f);
-            anim.SetBool("isEating", false);
         }
     }
 }
