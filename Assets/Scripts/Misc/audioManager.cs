@@ -36,15 +36,21 @@ public class audioManager : MonoBehaviour
         musicSource.Play();
     }
 
-void Update()
-{
-    Scene currentScene = SceneManager.GetActiveScene();
-
-    if (currentScene.name == "Death Screen")
+    void Update()
     {
-        // Stops playing music in level 1 scene
-        Destroy(gameObject);
-    }
+        Scene currentScene = SceneManager.GetActiveScene();
+
+        if (currentScene.name == "Death Screen")
+        {
+            // Stops playing music in level 1 scene
+            Destroy(gameObject);
+        }
+    
+        if (currentScene.name == "Win Screen")
+        {
+            // Stops playing music in level 1 scene
+            Destroy(gameObject);
+        }
 }
 
     public void PlaySFX(AudioClip clip)
