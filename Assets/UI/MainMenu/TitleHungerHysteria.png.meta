@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 67c0face31a26784ca8d23b44d9f4308
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8333921776314964762
+    second: TitleHungerHysteria_0
+  - first:
+      213: -2932796746796464138
+    second: TitleHungerHysteria_1
+  - first:
+      213: -9178940764003572014
+    second: TitleHungerHysteria_2
+  - first:
+      213: -4116152483553702197
+    second: TitleHungerHysteria_3
+  - first:
+      213: -4913539870068491736
+    second: TitleHungerHysteria_4
+  - first:
+      213: -7480000416838439318
+    second: TitleHungerHysteria_5
+  - first:
+      213: 8969477435431958698
+    second: TitleHungerHysteria_6
+  - first:
+      213: -6052182634828062216
+    second: TitleHungerHysteria_7
+  - first:
+      213: -7263597207420325224
+    second: TitleHungerHysteria_8
+  - first:
+      213: 6340228230338466507
+    second: TitleHungerHysteria_9
+  - first:
+      213: 6925151703089289418
+    second: TitleHungerHysteria_10
+  - first:
+      213: 6005628289907429287
+    second: TitleHungerHysteria_11
+  - first:
+      213: 1869309271786858465
+    second: TitleHungerHysteria_12
+  - first:
+      213: -2566358644261539021
+    second: TitleHungerHysteria_13
+  - first:
+      213: -271455562182713980
+    second: TitleHungerHysteria_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TitleHungerHysteria_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 79
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4aad8ac46f75c80800000000000000
+      internalID: -8333921776314964762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleHungerHysteria_1
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 24
+        width: 80
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f786ccb5ec9c47d0800000000000000
+      internalID: -2932796746796464138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleHungerHysteria_2
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 23
+        width: 59
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6e63bd10add9080800000000000000
+      internalID: -9178940764003572014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleHungerHysteria_3
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 110
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce8070ef1d70e6c0800000000000000
+      internalID: -4116152483553702197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleHungerHysteria_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 23
+        width: 79
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a39de65899fcbb0800000000000000
+      internalID: -4913539870068491736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleHungerHysteria_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 24
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e229a6043b13890800000000000000
+      internalID: -7480000416838439318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleHungerHysteria_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 0
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8bdc7843cf97c70800000000000000
+      internalID: 8969477435431958698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleHungerHysteria_7
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 23
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1294f95f3520ca0800000000000000
+      internalID: -6052182634828062216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleHungerHysteria_8
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 24
+        width: 67
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8923134f2d4823b90800000000000000
+      internalID: -7263597207420325224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleHungerHysteria_9
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 84
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc25a38cbf30df750800000000000000
+      internalID: 6340228230338466507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleHungerHysteria_10
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 23
+        width: 68
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8145e68c41b1060800000000000000
+      internalID: 6925151703089289418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleHungerHysteria_11
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 23
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af08f84c17485350800000000000000
+      internalID: 6005628289907429287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleHungerHysteria_12
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 24
+        width: 67
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e72330f0ee11f910800000000000000
+      internalID: 1869309271786858465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleHungerHysteria_13
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 24
+        width: 35
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333b9820966726cd0800000000000000
+      internalID: -2566358644261539021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleHungerHysteria_14
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 24
+        width: 70
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d9bcbba989b3cf0800000000000000
+      internalID: -271455562182713980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TitleHungerHysteria_0: -8333921776314964762
+      TitleHungerHysteria_1: -2932796746796464138
+      TitleHungerHysteria_10: 6925151703089289418
+      TitleHungerHysteria_11: 6005628289907429287
+      TitleHungerHysteria_12: 1869309271786858465
+      TitleHungerHysteria_13: -2566358644261539021
+      TitleHungerHysteria_14: -271455562182713980
+      TitleHungerHysteria_2: -9178940764003572014
+      TitleHungerHysteria_3: -4116152483553702197
+      TitleHungerHysteria_4: -4913539870068491736
+      TitleHungerHysteria_5: -7480000416838439318
+      TitleHungerHysteria_6: 8969477435431958698
+      TitleHungerHysteria_7: -6052182634828062216
+      TitleHungerHysteria_8: -7263597207420325224
+      TitleHungerHysteria_9: 6340228230338466507
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
