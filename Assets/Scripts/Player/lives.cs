@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class lives : MonoBehaviour
 {
@@ -36,6 +37,7 @@ public class lives : MonoBehaviour
         if (Lives <= 0)
         {
             Destroy(gameObject);
+            SceneManager.LoadScene("Death Screen");
         }
 
         if (Lives <= 1)

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class audioManager : MonoBehaviour
 {
@@ -34,6 +35,17 @@ public class audioManager : MonoBehaviour
         musicSource.clip = containmentZone;
         musicSource.Play();
     }
+
+void Update()
+{
+    Scene currentScene = SceneManager.GetActiveScene();
+
+    if (currentScene.name == "Death Screen")
+    {
+        // Stops playing music in level 1 scene
+        Destroy(gameObject);
+    }
+}
 
     public void PlaySFX(AudioClip clip)
     {
