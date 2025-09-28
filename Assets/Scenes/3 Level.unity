@@ -167,6 +167,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 1185587523}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (2)
@@ -224,6 +228,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 1185587523}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire
@@ -281,6 +289,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 1185587523}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (1)
@@ -626,6 +638,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6746625853922311352, guid: a30069a8a787e1545bd7bcebd8716040, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 1185587523}
     - target: {fileID: 7240403030509882167, guid: a30069a8a787e1545bd7bcebd8716040, type: 3}
       propertyPath: m_Name
       value: Wet Floor Sign
@@ -746,6 +762,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6069890001822929903, guid: 2748ea4d8042fbf4c8a4962b7d1d5b5a, type: 3}
   m_PrefabInstance: {fileID: 1185587521}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1185587523 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6993736028700219602, guid: 2748ea4d8042fbf4c8a4962b7d1d5b5a, type: 3}
+  m_PrefabInstance: {fileID: 1185587521}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e264cc61cad187b42a1303d3a6813974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::lives
 --- !u!1001 &1241352421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1038,6 +1065,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7367211876358707993, guid: 333375843a0c86745a8f8a92bc67ecb2, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 1185587523}
     m_RemovedComponents:
     - {fileID: 2032574133072173452, guid: 333375843a0c86745a8f8a92bc67ecb2, type: 3}
     m_RemovedGameObjects: []
@@ -1282,6 +1313,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 1185587523}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (3)
@@ -1682,7 +1717,7 @@ GameObject:
   - component: {fileID: 2067093005}
   - component: {fileID: 2067093004}
   - component: {fileID: 2067093003}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}

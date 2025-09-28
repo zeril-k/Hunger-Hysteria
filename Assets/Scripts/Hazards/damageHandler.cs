@@ -7,6 +7,14 @@ public class damageHandler : MonoBehaviour
 
     private checkpointSaver checkpointSaver;
 
+    public AudioSource audioSource;
+    audioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<audioManager>();
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -24,6 +32,8 @@ public class damageHandler : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             lives.TakeDamage(damage);
+
+            audioManager.PlaySFX(audioManager.growl);
 
             checkpointSaver.warpPlayerToSafeGround();
         }

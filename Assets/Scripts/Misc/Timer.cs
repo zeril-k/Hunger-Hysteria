@@ -16,7 +16,6 @@ public class Timer : MonoBehaviour
     public float timeRemaining = 150;
     public bool timerIsRunning = false;
     public Text timeText;
-    public int pressure = 0;
 
     private void Start()
     {
@@ -33,7 +32,7 @@ public class Timer : MonoBehaviour
             if (timeRemaining > 0)
             {
                 timeRemaining -= Time.deltaTime;
-                DisplayTime(timeRemaining - (pressure * 2));
+                DisplayTime(timeRemaining);
             }
             else
             {
@@ -60,8 +59,7 @@ public class Timer : MonoBehaviour
     {
         while (true)
         {
-            pressure++;
-            yield return new WaitForSeconds(timeRemaining - (pressure * 2));
+            yield return new WaitForSeconds(timeRemaining);
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }

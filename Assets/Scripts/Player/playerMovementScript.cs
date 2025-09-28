@@ -15,6 +15,14 @@ public class playerMovementScript : MonoBehaviour
     public chemicalManager cm;
     public humanManager hm;
 
+    public AudioSource audioSource;
+    audioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<audioManager>();
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -62,12 +70,15 @@ public class playerMovementScript : MonoBehaviour
         if (other.gameObject.CompareTag("Chemical"))
         {
             Destroy(other.gameObject);
+            audioManager.PlaySFX(audioManager.gulp);
             cm.chemicalCount++;
         }
 
         if (other.gameObject.CompareTag("Human"))
         {
             Destroy(other.gameObject);
+            audioManager.PlaySFX(audioManager.crunch);
+            audioManager.PlaySFX(audioManager.scream);
             hm.pointsCount++;
         }
     }

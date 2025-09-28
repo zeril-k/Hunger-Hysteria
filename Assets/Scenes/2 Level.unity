@@ -189,6 +189,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6069890001822929903, guid: 2748ea4d8042fbf4c8a4962b7d1d5b5a, type: 3}
   m_PrefabInstance: {fileID: 68366576}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &68366578 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6993736028700219602, guid: 2748ea4d8042fbf4c8a4962b7d1d5b5a, type: 3}
+  m_PrefabInstance: {fileID: 68366576}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e264cc61cad187b42a1303d3a6813974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::lives
 --- !u!1001 &91280563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -310,6 +321,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 68366578}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (2)
@@ -367,6 +382,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 68366578}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (1)
@@ -424,6 +443,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 68366578}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire
@@ -481,6 +504,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 68366578}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (9)
@@ -538,6 +565,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 68366578}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (5)
@@ -595,6 +626,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 68366578}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (11)
@@ -709,6 +744,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 68366578}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (6)
@@ -952,6 +991,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 68366578}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (3)
@@ -1314,6 +1357,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 68366578}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (4)
@@ -1478,6 +1525,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 68366578}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (7)
@@ -1535,6 +1586,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 68366578}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (13)
@@ -1849,6 +1904,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 68366578}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (12)
@@ -1906,6 +1965,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 68366578}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (8)
@@ -2110,6 +2173,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7388134517531484725, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
+      propertyPath: lives
+      value: 
+      objectReference: {fileID: 68366578}
     - target: {fileID: 7488092229773625779, guid: f8413b2c77ee1014f8ca93893fa71cb0, type: 3}
       propertyPath: m_Name
       value: Fire (10)
@@ -2256,7 +2323,7 @@ GameObject:
   - component: {fileID: 2067093005}
   - component: {fileID: 2067093004}
   - component: {fileID: 2067093003}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
