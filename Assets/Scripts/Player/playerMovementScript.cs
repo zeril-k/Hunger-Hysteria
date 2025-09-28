@@ -76,10 +76,10 @@ public class playerMovementScript : MonoBehaviour
 
         if (other.gameObject.CompareTag("Human"))
         {
+            hm.pointsCount += 1;
             Destroy(other.gameObject);
             audioManager.PlaySFX(audioManager.crunch);
             audioManager.PlaySFX(audioManager.scream);
-            hm.pointsCount++;
         }
     }
 }

@@ -1,12 +1,17 @@
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class lives : MonoBehaviour
 {
-    public int Lives;
+    public int Lives = 3;
     public int maxLives = 3;
 
     public AudioSource audioSource;
     audioManager audioManager;
+
+    public int livesCount;
+    public Text livesText;
 
     private void Awake()
     {
@@ -22,7 +27,7 @@ public class lives : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        livesText.text =livesCount.ToString();
     }
 
     public void TakeDamage(int amount)
@@ -32,6 +37,7 @@ public class lives : MonoBehaviour
         if (Lives <= 0)
         {
             Destroy(gameObject);
+            SceneManager.LoadScene("Death Screen");
         }
 
         if (Lives <= 1)
