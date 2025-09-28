@@ -33,7 +33,7 @@ public class Timer : MonoBehaviour
             if (timeRemaining > 0)
             {
                 timeRemaining -= Time.deltaTime;
-                DisplayTime(timeRemaining);
+                DisplayTime(timeRemaining - (pressure * 2));
             }
             else
             {
@@ -61,13 +61,9 @@ public class Timer : MonoBehaviour
         while (true)
         {
             pressure++;
-            yield return new WaitForSeconds(60 - (pressure * 2));
+            yield return new WaitForSeconds(timeRemaining - (pressure * 2));
 
-
-            currentSceneIndex = (currentSceneIndex + 1);
-            string nextSceneName = sceneOrder[currentSceneIndex];
-
-            SceneManager.LoadScene(sceneOrder[currentSceneIndex]);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
