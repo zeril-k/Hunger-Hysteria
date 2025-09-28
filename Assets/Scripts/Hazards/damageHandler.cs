@@ -5,10 +5,12 @@ public class damageHandler : MonoBehaviour
     public lives lives;
     public int damage = 1;
 
+    private checkpointSaver checkpointSaver;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        checkpointSaver = GameObject.FindGameObjectWithTag("Player").GetComponent<checkpointSaver>();
     }
 
     // Update is called once per frame
@@ -22,6 +24,8 @@ public class damageHandler : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             lives.TakeDamage(damage);
+
+            checkpointSaver.warpPlayerToSafeGround();
         }
     }
 }
