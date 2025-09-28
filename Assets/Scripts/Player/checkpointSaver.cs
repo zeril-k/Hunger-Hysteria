@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class checkpointSaver : MonoBehaviour
 {
-    private LayerMask whatIsCheckPoint;
+    public LayerMask whatIsCheckPoint;
 
     public Vector2 SafeGroundLocation { get; private set; } = Vector2.zero;
 

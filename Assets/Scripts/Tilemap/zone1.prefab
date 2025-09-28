@@ -30,7 +30,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8750734429714380893}
   m_Father: {fileID: 6413800068809902645}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1839735485 &8690913583855327036
@@ -195,7 +196,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 28.619999, y: 28.619999, z: 0}
+  m_ChunkCullingBounds: {x: 3.9799995, y: 3.9799995, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -243,11 +244,81 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5427362389924977948}
   m_Enabled: 1
-  m_CellSize: {x: 58.239998, y: 58.239998, z: 0}
+  m_CellSize: {x: 8.959999, y: 8.959999, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
---- !u!114 &8281236676657712443
+--- !u!1001 &4553066871265191045
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4291269147478650982}
+    m_Modifications:
+    - target: {fileID: 5070882393372204248, guid: 7d46c11010a676c4d842d20df4eb0e68, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.4799995
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070882393372204248, guid: 7d46c11010a676c4d842d20df4eb0e68, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.4799995
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070882393372204248, guid: 7d46c11010a676c4d842d20df4eb0e68, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070882393372204248, guid: 7d46c11010a676c4d842d20df4eb0e68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070882393372204248, guid: 7d46c11010a676c4d842d20df4eb0e68, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070882393372204248, guid: 7d46c11010a676c4d842d20df4eb0e68, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070882393372204248, guid: 7d46c11010a676c4d842d20df4eb0e68, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070882393372204248, guid: 7d46c11010a676c4d842d20df4eb0e68, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070882393372204248, guid: 7d46c11010a676c4d842d20df4eb0e68, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070882393372204248, guid: 7d46c11010a676c4d842d20df4eb0e68, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071773364960311702, guid: 7d46c11010a676c4d842d20df4eb0e68, type: 3}
+      propertyPath: m_Name
+      value: Door 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6409484326164951304, guid: 7d46c11010a676c4d842d20df4eb0e68, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6409484326164951304, guid: 7d46c11010a676c4d842d20df4eb0e68, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7d46c11010a676c4d842d20df4eb0e68, type: 3}
+--- !u!4 &8750734429714380893 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5070882393372204248, guid: 7d46c11010a676c4d842d20df4eb0e68, type: 3}
+  m_PrefabInstance: {fileID: 4553066871265191045}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3884455210875902010
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
